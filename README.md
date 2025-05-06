@@ -80,8 +80,13 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #45a049;  
 }
+
+
+
+
+
 // Initialize Pi SDK
 Pi.init({
     version: "2.0",
@@ -100,6 +105,8 @@ function connectWallet() {
         console.error("Error connecting wallet:", error);
     });
 }
+
+
 
 
 // Static list of services (replace with database later)
